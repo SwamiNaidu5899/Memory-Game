@@ -1,0 +1,38 @@
+[
+    {
+        "image": "./dp.webp",
+        "name": "dp"
+    },
+    {
+        "image": "./cap.webp",
+        "name": "cap"
+    },
+    {
+        "image": "./irnman.webp",
+        "name": "ironMan"
+    },
+    {
+        "image": "./panther.webp",
+        "name": "bPanther"
+    },
+    {
+        "image": "./spd.webp",
+        "name": "spd"
+    },
+    {
+        "image": "./thor.webp",
+        "name": "thor"
+    },
+    {
+        "image": "./hulk.webp",
+        "name": "hulk"
+    },
+    {
+        "image": "./witch.webp",
+        "name": "witch"
+    },
+    {
+        "image": "./widow.webp",
+        "name": "widow"
+    }
+]

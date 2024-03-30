@@ -1,0 +1,243 @@
+/* Medium Mobiles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.front-image
+{
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+@media only screen and (max-width: 599px) {
+  body {
+    background-color: #12181f;
+    color: white;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: century gothic;
+  }
+
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .actions button {
+    padding: 8px 10px;
+    font-size: 12px;
+    background-color: orangered;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    display: block;
+    margin: auto;
+  }
+
+  .grid-container {
+    display: flex;
+    grid-gap: 35px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-top: 2vh;
+    height: calc(50px / 2 * 3);
+    width: 50px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+  }
+  .card.flipped {
+    transform: rotateY(180deg);
+  }
+
+  .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .card .front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card .back {
+    background-image: url("./wall.jpg");
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+  }
+
+  .card .front {
+    transform: rotateY(180deg);
+  }
+}
+
+@media only screen and (min-width: 599px) and (max-width: 768px) {
+  body {
+    background-color: #12181f;
+    color: white;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: century gothic;
+  }
+
+  p {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .actions button {
+    padding: 8px 10px;
+    font-size: 25px;
+    background-color: orangered;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    display: block;
+    margin: auto;
+  }
+
+  .grid-container {
+    display: flex;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    height: calc(120px / 2 * 3);
+    width: 120px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .card.flipped {
+    transform: rotateY(180deg);
+  }
+
+  .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .card .front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card .back {
+    background-image: url("./wall.jpg");
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+  }
+
+  .card .front {
+    transform: rotateY(180deg);
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
+  body {
+    background-color: #12181f;
+    color: white;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: century gothic;
+  }
+
+  p {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .actions button {
+    padding: 8px 10px;
+    font-size: 25px;
+    background-color: orangered;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    display: block;
+    margin: auto;
+  }
+
+  .grid-container {
+    display: flex;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    height: calc(120px / 2 * 3);
+    width: 120px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .card.flipped {
+    transform: rotateY(180deg);
+  }
+
+  .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .card .front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card .back {
+    background-image: url("./wall.jpg");
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+  }
+
+  .card .front {
+    transform: rotateY(180deg);
+  }
+}
